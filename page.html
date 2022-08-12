@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>#prompt {  font-family: sans-serif;  text-align:center;  border-radius: 5px;  background-color: lightblue;  padding: 10px;}#dataDisplay {  border-radius: 5px;  height: 10vh;  padding: 12px 10px;}
+        </style>
+        <script type="text/javascript">                 function setup(htmlComponent) {		                      htmlComponent.addEventListener("DataChanged", function(event) {            document.getElementById("dataDisplay").innerHTML = htmlComponent.Data;            });             }
+        </script>
+        </head>
+        <body>  
+            <table width="99%">
+                <tr>
+                 <td>
+                    <img class="header-img" src ="logo.png" alt="uv.mx" href="https://www.uv.mx", width="80" height="65"/>
+                    
+                 </td>
+                 <td align="center">
+                    <div id="prompt">	
+                        <span>
+                         <label for="prompt"><strong>SEAPF</strong> </label>
+                        </span>	
+                        <br/>	
+                        <div id ="dataDisplay">	Sistema para la Estimación de Antocianinas en Poblaciones de Frijol</div>		     
+                    </div>
+                </td>
+                <td align="right">
+                    <img class="header-img" src ="logoUV.jpg" alt="uv.mx" href="https://www.uv.mx", width="80" height="65"/>
+                </td>
+                </tr>
+               </table>
+            		
+                
+
+            
+        
+        </body>
+    </html>
